@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&display=swap");
+.types-of-brand {
+    a {
+        color: #282828;
+        &:hover {
+            color: #38a8ea;
+        }
+    }
+    .swiper {
+        padding-bottom: 40px !important;
+        .image {
+            padding-top: 12px;
+            img {
+                cursor: pointer;
+                transition: all 0.2s linear;
+                &:hover {
+                    transform: scale(105%);
+                    transition: all 0.2s linear;
+                }
+            }
+            .cate-content {
+                .title_cate {
+                    font-size: 20px;
+                    color: #282828;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-align: center;
+                    margin: 14px 0 0 0;
+                    padding: 0 10px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    &:hover {
+                        color: #38a8ea;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+.heading h2 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-size: 35px !important;
+    color: #282828;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: normal;
+    display: inline-block;
+    position: relative;
+}
+.section_why {
+    background-image: url("https://bizweb.dktcdn.net/100/465/223/themes/877050/assets/bg_why.jpg?1714959329989");
+    padding: 90px 0 150px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 90px;
+}
+.twrap {
+    padding: 0;
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding-top: 33px;
+    user-select: none;
+    .item {
+        display: inline-block;
+        margin: 0 5px 10px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #282828;
+        font-family: "Quicksand", sans-serif;
+        padding: 0 26px;
+        height: 50px;
+        line-height: 49px;
+        cursor: pointer;
+        border-radius: 30px;
+        border: 1px solid #ebebeb;
+    }
+    .item.current,
+    .item:hover {
+        color: #fff;
+        background: #38a8ea;
+        border: 1px solid #38a8ea;
+    }
+}
+
+// Responsive
+@media (max-width: 767px) {
+    .heading h2,
+    .heading h1,
+    .heading h4 {
+        font-size: 30px !important;
+    }
+    .title_cate {
+        font-size: 16px !important;
+        margin-top: 10px !important;
+        padding: 0 20px !important;
+    }
+    .book-new-release {
+        margin-top: 50px !important;
+        .swiper-container {
+            padding-top: 35px !important;
+        }
+    }
+    .twrap {
+        width: 100%;
+        max-width: unset;
+        margin-bottom: 0;
+        margin-top: 20px;
+        overflow: hidden;
+        height: 45px;
+        line-height: 35px;
+        overflow-x: visible;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 15px;
+        .item {
+            height: 35px;
+            line-height: 35px;
+            padding: 0 20px;
+            font-size: 13.09px;
+            margin: 0 5px;
+            min-width: 167px;
+        }
+    }
+    .section_why {
+        padding: 50px 0 0px;
+        margin-bottom: 50px;
+        background-position-x: inherit;
+    }
+
+    .swiper-slide {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section_why {
+        padding: 50px 0;
+        margin-bottom: 50px;
+        background-position-x: inherit;
+    }
+}

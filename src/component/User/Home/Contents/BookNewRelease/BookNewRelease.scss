@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&display=swap");
+
+.book-new-release {
+    margin-top: 50px;
+    .section_category {
+        margin-bottom: 40px;
+
+        .heading h2 {
+            font-family: "Freeman", sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            color: #282828;
+            padding: 0;
+            margin: 0;
+            text-transform: uppercase;
+            line-height: normal;
+            display: inline-block;
+            position: relative;
+        }
+    }
+    .swiper-container {
+        padding-top: 30px;
+        .swiper {
+            padding-bottom: 40px;
+        }
+        .image {
+            padding-top: 5px;
+            img {
+                cursor: pointer;
+                transition: all 0.2s linear;
+                &:hover {
+                    transform: scale(105%);
+                    transition: all 0.2s linear;
+                }
+            }
+            .cate-content {
+                .title_cate {
+                    font-size: 24px;
+                    color: #282828;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-align: center;
+                    margin: 18px 0 0 0;
+                    padding: 0 20px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    &:hover {
+                        color: #38a8ea;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive
+// Mobile
+
+@media (max-width: 767px) {
+    .book-new-release {
+        margin-top: 0 !important;
+        .section_why {
+            padding: 44px 0 0px;
+            margin-bottom: 40px;
+            background-position-x: inherit;
+        }
+        .heading h2,
+        .heading h1,
+        .heading h4 {
+            font-size: 25px !important;
+            padding: 0 20px;
+        }
+        .title_cate {
+            font-size: 20px !important;
+            margin-top: 10px;
+            padding: 0;
+        }
+        .book-new-release {
+            margin-top: 10px !important;
+            .swiper-container {
+                padding-top: 25px !important;
+            }
+        }
+    }
+}

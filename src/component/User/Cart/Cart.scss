@@ -1,0 +1,70 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.bg-grey {
+    background-color: #eae8e8;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input.border-none {
+    border: none !important;
+}
+
+.list-cart {
+    .book-name {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .list-cart {
+        .book-name {
+            font-size: 22px !important;
+        }
+        button {
+            font-size: 16px !important;
+        }
+        input {
+            font-size: 18px !important;
+        }
+        .book-price h6 {
+            text-align: center !important;
+            margin: 14px 0 !important;
+            display: inline-block !important;
+            font-size: 20px !important;
+        }
+        .time {
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .list-cart {
+        .book-name {
+            margin: 14px 0;
+            font-size: 20px;
+        }
+        .book-price {
+            font-size: 18px;
+        }
+    }
+}

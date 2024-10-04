@@ -1,0 +1,55 @@
+.admin-home-container {
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+        h1 {
+            font-weight: 600;
+            font-size: 30px;
+        }
+    }
+    .content {
+        .Admin-table-value {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            margin-top: 70px;
+        }
+        .Admin-card-table-value {
+            width: auto;
+            margin: 10px;
+            background: #fffdfd;
+            padding: 10px;
+            border: 0.5px solid #d4d3d3;
+            border-radius: 8px;
+        }
+        .item-data-right {
+            text-align: right;
+            margin-right: 10px;
+        }
+        .Actual-data {
+            display: flex;
+            justify-content: space-around;
+        }
+        .item-data-right strong {
+            font-size: 25px;
+        }
+        #statistical {
+            border-left: 4px solid #e91818;
+        }
+        #User {
+            border-left: 4px solid #18e922;
+        }
+        #Product,
+        #Addproduct {
+            border-left: 4px solid #1884e9;
+        }
+        #Dealhot {
+            border-left: 4px solid #e9e918;
+        }
+        #total {
+            border-left: 4px solid #3300ff;
+        }
+        h2 {
+            font-size: 22px;
+        }
+    }
+}

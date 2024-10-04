@@ -1,0 +1,17 @@
+.list-books-order {
+    img {
+        width: 100px;
+    }
+}
+
+.status-order-container {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 10px 0 20px;
+    #status-order {
+        margin-left: 5px;
+        padding: 8px;
+        border-radius: 30px;
+    }
+}

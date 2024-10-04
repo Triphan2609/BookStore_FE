@@ -1,0 +1,15 @@
+.scroll-top {
+    position: fixed;
+    right: 10px;
+    bottom: 75px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: #38a8ea;
+    color: #fff;
+    z-index: 9999999999;
+    &:hover {
+        opacity: 0.8;
+    }
+}

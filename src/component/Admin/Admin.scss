@@ -1,0 +1,89 @@
+.admin-container {
+    display: flex;
+    .admin-sidebar {
+        .pro-sidebar {
+            height: 100vh;
+            background-color: #606266;
+            .pro-item-content {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .admin-content {
+        width: 100%;
+        padding: 20px;
+        .admin-header {
+            height: 40px;
+        }
+        .admin-main {
+            height: 40px;
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .content {
+            .btn-hs-bg {
+                font-weight: 700;
+                font-size: 14px;
+                margin: 24px 0;
+                background: #38a8ea;
+            }
+            .btn-no-bg {
+                font-size: 14px;
+                font-weight: 700;
+                color: #000;
+                background-color: #fff;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        .table-container {
+            height: 476px !important;
+            th {
+                font-size: 18px !important;
+            }
+            td {
+                font-size: 16px;
+            }
+        }
+        .modal-add-accounts {
+            .lable-upload {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 3px;
+                background-color: #3b71ca;
+                padding: 5px 12px;
+                border-radius: 5px;
+                width: fit-content;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .form-admin {
+        margin: 60px auto 0;
+        width: 400px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 2px 10px 21px 3px rgba(147, 147, 147, 0.62);
+        -webkit-box-shadow: 2px 10px 21px 3px rgba(147, 147, 147, 0.62);
+        -moz-box-shadow: 2px 10px 21px 3px rgba(147, 147, 147, 0.62);
+        .input-form {
+            margin-bottom: 24px;
+        }
+        button {
+            margin-top: 10px;
+            background-color: #38a8ea;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+}

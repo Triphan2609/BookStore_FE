@@ -1,0 +1,73 @@
+.page_contact {
+    margin-top: 50px;
+    .heading h4 {
+        font-family: "Freeman", sans-serif;
+        font-size: 30px;
+        color: #282828;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+        line-height: normal;
+        display: inline-block;
+        position: relative;
+    }
+    p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #282828;
+        display: block;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    .wrapcontactin .time_work {
+        width: 100%;
+        float: left;
+        .r {
+            width: 100%;
+            float: left;
+            margin-bottom: 20px;
+            .fas {
+                width: 25px;
+                text-align: left;
+                font-size: 18px;
+                color: #38a8ea;
+                display: block;
+                float: left;
+                height: 24px;
+                line-height: 24px;
+            }
+            span {
+                display: block;
+                width: calc(100% - 25px);
+                float: left;
+                font-size: 16px;
+                font-weight: 500;
+                color: #282828;
+            }
+            a {
+                color: #4b4b4b;
+                &:hover {
+                    color: #38a8ea;
+                }
+            }
+        }
+    }
+    form .form-signup {
+        input {
+            border-radius: 30px;
+            margin-bottom: 20px;
+        }
+        button {
+            border-radius: 30px;
+            margin-top: 20px;
+            background-color: #38a8ea;
+            min-width: 150px;
+            height: 50px;
+            font-size: 16px;
+        }
+        .content-area {
+            border-radius: 30px;
+        }
+    }
+}

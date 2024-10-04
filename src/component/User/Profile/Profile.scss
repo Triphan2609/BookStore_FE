@@ -1,0 +1,103 @@
+.page_customer_account {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    .list-book {
+        li {
+            list-style: none;
+        }
+        button {
+            padding: 5px;
+            outline: none;
+            border: none;
+            background-color: #38a8ea;
+            color: #fff;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+        ul {
+            text-align: start;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .block-account {
+        .title-account {
+            font-family: "Quicksand", sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            color: #212b25;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        button {
+            outline: none;
+            border: none;
+            color: #38a8ea;
+            background-color: transparent;
+            font-weight: 500;
+        }
+
+        .feature-address {
+            span {
+                display: block;
+                font-weight: 400;
+                margin: 5px 0;
+            }
+        }
+        p {
+            margin: 12px 0;
+        }
+    }
+    p {
+        font-weight: 700;
+        font-size: 16px;
+        font-family: "Quicksand", sans-serif;
+        line-height: 16px;
+        margin-bottom: 28px;
+        color: #212b25;
+        line-height: 1.4;
+    }
+
+    .title-head {
+        font-size: 22px;
+        font-family: "Quicksand", sans-serif;
+        line-height: 22px;
+        font-weight: 500;
+        color: #212b25;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        p {
+            margin-bottom: 12px;
+        }
+        th {
+            border-left: 1px solid #dee2e6;
+            background: #38a8ea;
+            color: #fff;
+            padding: 5px;
+        }
+        .special {
+            white-space: nowrap;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .table {
+        th:nth-child(2),
+        th:nth-child(3) {
+            white-space: nowrap;
+            padding: 5px 30px !important;
+        }
+    }
+}

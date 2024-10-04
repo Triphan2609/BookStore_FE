@@ -1,0 +1,40 @@
+.modal-view-book {
+    .img-slide {
+        .slide-show-images {
+            user-select: none;
+            .swiper-button-next,
+            .swiper-button-prev {
+                color: #38a8ea;
+                font-weight: 700;
+            }
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .swiper {
+                width: 80%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .swiper-slide {
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}

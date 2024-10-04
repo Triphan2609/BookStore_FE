@@ -1,0 +1,50 @@
+.login,
+.register {
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+    .h-custom {
+        height: calc(100% - 74px);
+        .btn-return-home {
+            display: block;
+            margin-top: 15px;
+            color: #000;
+            font-weight: 700;
+            &:hover {
+                color: rgb(59, 113, 202);
+            }
+        }
+        input {
+            border: 1px solid #7d7d7d !important;
+        }
+    }
+    @media (max-width: 450px) {
+        .h-custom {
+            height: 100%;
+            margin-bottom: 30px;
+            padding: 10px 20px !important;
+        }
+        footer {
+            margin-top: 50px !important;
+        }
+    }
+
+    @media (min-width: 450px) and (max-width: 990px) {
+        footer {
+            margin-top: 50px !important;
+        }
+    }
+
+    @media (min-width: 991px) {
+        .h-custom {
+            height: 100vh !important;
+            .btn-login {
+                width: 100%;
+            }
+        }
+    }
+}
